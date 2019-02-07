@@ -1,17 +1,8 @@
-#include <stdio.h>
-
-int main(void) {
-int a; 
-  
-    printf("Enter the value of a "); 
-    scanf("%d", &a); 
-  {
-    if (a > 0) 
-        printf("%d is positive.", a); 
-    else if (a < 0) 
-        printf("%d is negative.", a); 
-    else if (a == 0) 
-        printf("%d is zero.", a); 
-  }
-	return 0;
-}
+num = float(input("Enter a number: "))
+if num >= 0:
+   if num == 0:
+       print("Zero")
+   else:
+       print("Positive number")
+else:
+   print("Negative number")
