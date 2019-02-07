@@ -1,7 +1,7 @@
 num = 50
 if num > 0: 
    print("Positive") 
-elif num == 0: 
+else num == 0: 
    print("Zero") 
 else: 
    print("Negative") 
