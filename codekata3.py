@@ -3,6 +3,6 @@ x=raw_input()
 if(x in z):
    print('vowel')
 elif(x!=z):
-    print('consonant')
+    print('Consonant')
 else:
 	print('invalid')
