@@ -1,6 +1,6 @@
 y = int(input())
 
 if (( y%400 == 0)or (( y%4 == 0 ) and ( y%100 != 0))):
-    print("yes" %y)
+    print("yes" )
 else:
-    print("no" %y)
+    print("no")
